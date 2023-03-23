@@ -29,3 +29,6 @@ For proper functionality, the bot requires a couple values to be stored inside t
 - **channels.general**: the ID of the message channel where the bot will send welcome/goodbye messages.
 
 That's everything I remember from how you run this bot. Have fun(?)
+
+## Fun facts
+- The original repository was so cursed, Github thought it was written 65% in [Limbo](https://en.wikipedia.org/wiki/Limbo_(programming_language))
