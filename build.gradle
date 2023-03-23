@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'MainC'
+group 'org.example'
+version '2.1'
+
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'net.dv8tion:JDA:4.2.0_168'
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile 'org.jsoup:jsoup:1.8.3'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

@@ -1,0 +1,6 @@
+{
+  "KW-triggers": ["egg", "server owner"],
+  "KW-send": ["<:egg:674677690585841675>", "It is I"],
+  "FM-triggers": ["make me mod", "make me server owner"],
+  "FM-send": ["no", "no"]
+}
