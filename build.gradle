@@ -16,8 +16,8 @@ repositories {
 }
 
 dependencies {
-    compile 'net.dv8tion:JDA:4.2.0_168'
-    compile 'com.googlecode.json-simple:json-simple:1.1.1'
-    compile 'org.jsoup:jsoup:1.8.3'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'net.dv8tion:JDA:4.2.0_168'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+    implementation 'org.jsoup:jsoup:1.8.3'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
